@@ -1,1 +1,42 @@
-/* used by all or most pages */
+/* navigation */
+
+nav , .dropdown-menu , .navbar-collapse {
+    background-color: white;
+}
+
+nav , .dropdown-menu {
+    box-shadow: 0 4px 15px 0 #C8B6FF;
+}
+
+#nav-logo {
+    height: 50px;
+}
+
+.navbar-brand , .nav-link , .dropdown-item {
+    color: #FFAFCC;
+}
+
+.navbar-brand>img {
+    height: 100%;
+    width: auto;
+}
+
+.active .nav-link, .dropdown-menu .active {
+    color: #B8C0FF;
+    background-color: white;
+}
+
+.dropdown-toggle {
+    border: none;
+    outline: none;
+}
+
+.navbar-brand:hover , .nav-link:hover , .dropdown-item:hover, .dropdown-item:hover {
+    color: #C8B6FF;
+    background-color: white;
+}
+
+.navbar-toggler {
+    border-color: #FFAFCC;
+  } 
+
