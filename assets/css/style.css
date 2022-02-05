@@ -1,5 +1,4 @@
 /* navigation */
-
 nav , .dropdown-menu , .navbar-collapse {
     background-color: white;
 }
@@ -38,5 +37,57 @@ nav , .dropdown-menu {
 
 .navbar-toggler {
     border-color: #FFAFCC;
-  } 
+} 
 
+
+/* footer */
+footer {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 -4px 15px 0 #C8B6FF;
+}
+
+footer ul {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer li {
+    padding: 10px;
+}
+
+footer ul a {
+    color: #FFAFCC;
+}
+
+footer ul a:hover , .social > a:hover{
+    color: #C8B6FF;
+    text-decoration: none;
+}
+
+.social {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.social > a {
+    width: 40px;
+    line-height: 40px;
+    margin: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 40px;
+    color: #B8C0FF;
+    border: 1px solid #B8C0FF;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+.copyright {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color:#B8C0FF;
+}
