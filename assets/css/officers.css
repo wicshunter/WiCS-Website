@@ -1,0 +1,62 @@
+/* only for officers page */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap');
+
+.officers-bios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-family: "Roboto", arial, sans-serif;
+}
+
+.officer {
+  background-image: linear-gradient(45deg, #FFAFCC, #C8B6FF);
+  color: white;
+  box-shadow: 5px 5px 10px #C8B6FF;
+
+  height: 325px;
+  width: 300px;
+  border-radius: 5px;
+  position: relative;
+  margin: 65px;
+}
+
+.profile-img {
+  box-shadow: 5px 5px 10px #FFAFCC;
+  height: 175px;
+  width: 175px; 
+  border-radius: 50%;
+
+  position: absolute;
+  top: -50px;
+  margin-left: 21%;
+  margin-right: 21%;
+}
+
+.profile-img img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.officer-desc {
+  color: white;
+  font-family: 'Sriracha', arial, sans-serif;
+  text-align: center;
+  margin-top: 135px;
+  line-height: 1.5;
+}
+
+.officer-social {
+  position: absolute;
+  bottom: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.officer-social > a {
+  color: white !important;
+  border: 1px solid white;
+}
