@@ -81,6 +81,10 @@ footer ul a:hover , .social > a:hover{
     border: 1px solid #B8C0FF;
 }
 
+.social > a:hover {
+    transform: scale(1.25);
+}
+
 .fa {
     font-size: 20px;
 }
