@@ -1,1 +1,28 @@
 /* only for sponsors page */
+
+body {
+    text-align: center;
+}
+
+#sponsor-title {
+    background-color: #0c1133;
+    padding: 4rem 5vw;
+}
+
+#title-section {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 4rem 5vw;
+    text-shadow: 0 0 15px #C8B6FF;
+    color: #fff;
+}
+
+#sponsors {
+    margin: 4rem 5vw;
+}
+
+.logo {
+    max-width: 300px;
+}

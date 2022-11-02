@@ -1,5 +1,5 @@
 /* only for events page */
-#title-section {
+.title-section {
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
     font-size: 40px;
@@ -18,9 +18,6 @@
 }
 
 .cards {
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-    /* gap: 2rem; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -163,3 +160,28 @@
     color: #8878b8;
     /* text-shadow: 1px 1px #6A515E; */
 }  
+
+#hackathon {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    margin-top: 200px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.size-change {
+    width: 900px;
+}
+
+#hackathon-banner {
+    width: 100%;
+}
+
+#hackathon-description {
+    text-align: left;
+    width: fit-content;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
