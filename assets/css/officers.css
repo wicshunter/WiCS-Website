@@ -2,61 +2,71 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap');
 
-.officers-bios {
+.cards {
+  margin: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   flex-wrap: wrap;
-  margin: 20px;
-  font-family: "Roboto", arial, sans-serif;
 }
 
-.officer {
-  background-image: linear-gradient(45deg, #FFAFCC, #C8B6FF);
-  color: white;
-  box-shadow: 5px 5px 10px #C8B6FF;
-
-  height: 325px;
+.officer-card {
+  background-color: #cee1b9;
+  height: 425px;
   width: 300px;
-  border-radius: 5px;
-  position: relative;
   margin: 65px;
-}
-
-.profile-img {
-  box-shadow: 5px 5px 10px #FFAFCC;
-  height: 175px;
-  width: 175px; 
-  border-radius: 50%;
-
-  position: absolute;
-  top: -50px;
-  margin-left: 21%;
-  margin-right: 21%;
-}
-
-.profile-img img {
-  max-height: 100%;
-  max-width: 100%;
-  border-radius: 50%;
-}
-
-.officer-desc {
-  color: white;
-  font-family: 'Sriracha', arial, sans-serif;
   text-align: center;
-  margin-top: 135px;
-  line-height: 1.5;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 15px;
+  box-shadow: 
+    -10px -10px #fef8f8,
+    10px 10px #fef8f8,
+    -15px -13px #1b162980,
+    15px 13px #1b162980;
 }
 
-.officer-social {
-  position: absolute;
-  bottom: 0;
-  margin-left: 20%;
-  margin-right: 20%;
+.card-align {
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  font-family: 'Sriracha', arial, sans-serif;
+  color: #6A515E;
 }
 
-.officer-social > a {
-  color: white !important;
-  border: 1px solid white;
+.officer-card img{
+  width: 60%;
+  border-radius: 20%;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 5px 5px 10px #6A515E;
+}
+
+.name {
+  color: #fceee9;
+  text-shadow: 2px 2px #6A515E;
+}
+
+.card-info {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-icons > a {
+  display: inline-block;
+  color: #6A515E;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.card-icons > a:hover {
+  text-shadow: 2px 2px #fceee9;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }

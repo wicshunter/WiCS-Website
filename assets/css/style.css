@@ -1,3 +1,7 @@
+body {
+    background-color: #fef8f8;
+}
+
 /* navigation */
 nav , .dropdown-menu , .navbar-collapse {
     background-color: white;
