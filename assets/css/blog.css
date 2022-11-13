@@ -19,7 +19,6 @@
 }
 
 .leftBox {
-    min-width: 500px;
     max-width: 600px;
 }
 
@@ -72,7 +71,7 @@
 
 .time {
     background-color: #fef8f8;
-    width: 15%;
+    width: 17%;
     height: 140px;
     text-align: center;
     
@@ -125,4 +124,14 @@
       margin-bottom: 100px;
       height: fit-content;
     }
-  }
+
+    .time {
+        width: 25%;
+        height: 225px;
+    }
+    
+    .details {
+        width: 50%;
+        height: 225px;
+    }
+}

@@ -1,5 +1,27 @@
 /* only for officers page */
 
+#officer-intro {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 65px;
+}
+
+#intro-align {
+  background-color: #6A515E;
+  margin: auto;
+  max-width: 900px;
+}
+
+#intro-align div {
+  width: 100%;
+}
+
+#intro-align img {
+  width: 80%;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap');
 
 .cards {
