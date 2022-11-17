@@ -141,9 +141,6 @@
     margin: 0;
     color: #bf99ac;
     font-family: "MockFlowFont";   
-    /* display: -webkit-box; */
-    /* -webkit-box-orient: vertical; */
-    /* -webkit-line-clamp: 3; */
 }    
 
 .card__time {
@@ -171,11 +168,12 @@
 }
 
 .size-change {
-    width: 900px;
+    max-width: 900px;
 }
 
 #hackathon-banner {
-    width: 100%;
+    max-width: 90%;
+    margin: 20px;
 }
 
 #hackathon-description {

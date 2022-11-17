@@ -88,7 +88,50 @@
 }
 
 .card-icons > a:hover {
-  text-shadow: 2px 2px #fceee9;
+  text-shadow: 1px 1px #fceee9;
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+}
+
+#past {
+  margin: 30px;
+}
+
+#past-align {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.past-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.past-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 20px;
+  width: 330px;
+
+  background-color: #bfc9b3;
+  border-radius: 15px;
+  box-shadow: 
+    -5px -5px #fef8f8,
+    5px 5px #fef8f8,
+    -8px -6px #1b162980,
+    8px 6px #1b162980;
+}
+
+.past-card img {
+  max-width: 100px;
+  border-radius: 20%;
+  margin: 10px;
+  box-shadow: 2px 2px 5px #6A515E;
 }

@@ -119,19 +119,21 @@
     margin-left: 20px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px)  {
     .events {
-      margin-bottom: 100px;
-      height: fit-content;
+        width: 750px;
+        margin-bottom: 100px;
+        height: fit-content;
     }
 
     .time {
-        width: 25%;
-        height: 225px;
+        max-width: 25%;
+        padding: 15px;
+        height: 165px;
     }
     
     .details {
-        width: 50%;
-        height: 225px;
+        width: 75%;
+        height: 165px;
     }
 }
