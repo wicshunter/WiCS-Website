@@ -98,10 +98,12 @@
 }
 
 #past-align {
-  max-width: 900px;
+  /* background-color: #6A515E; */
+  max-width: 80%;
   margin: auto;
   margin-top: 65px;
   margin-bottom: 65px;
+  text-align: center;
 }
 
 .past-section {
@@ -118,7 +120,8 @@
   align-items: center;
   padding: 15px;
   margin: 20px;
-  width: 330px;
+  max-width: 330px;
+  text-align: start;
 
   background-color: #bfc9b3;
   border-radius: 15px;
@@ -134,4 +137,20 @@
   border-radius: 20%;
   margin: 10px;
   box-shadow: 2px 2px 5px #6A515E;
+}
+
+.past-icons > a {
+  display: inline-block;
+  color: #6A515E;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.past-icons > a:hover {
+  text-shadow: 1px 1px #fceee9;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
