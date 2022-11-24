@@ -65,105 +65,7 @@
         </nav>
 
         <h3 class="title-section">Upcoming Events</h3>
-        <ul class="cards"> 
-            <li>
-                <div class="card">
-                    <img src="assets/img/event/Friendsgiving.png" class="card__image" alt="" />
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                            <img class="card__thumb in-person" src="assets/img/icon-in-person.png" alt="" />
-                            <div class="card__header-text">
-                                <h3 class="card__title">Friendsgiving Brunch</h3>            
-                                <span class="card__status">November 23th</span>
-                            </div>
-                        </div>
-                        <p class="card__description">
-                            <span class="card__time"> 10AM - 12PM | TH205</span><br><br>
-                            Hang out with members, peers, and officers to celebrate this Holiday event!!
-                            <br><br>
-                            We will be providing brunch at this time of day so let us if you are coming.
-                            <br><br>
-                            Form can be found in WiCS Newsletter and Discord.
-                        </p> 
-                    </div>
-                </div>      
-            </li>  
-            <li>
-                <div class="card">
-                    <img src="assets/img/event/Behavioral-Interview-Prep.png" class="card__image" alt="" />
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                            <img class="card__thumb virtual" src="assets/img/icon-virtual.png" alt="" />
-                            <div class="card__header-text">
-                                <h3 class="card__title">Behavioral Interview Prep</h3>            
-                                <span class="card__status">November 29th</span>
-                            </div>
-                        </div>
-                        <p class="card__description">
-                            <span class="card__time"> 2PM - 3:30PM | Discord</span><br><br>
-                            Members will learn how to prepare for a behavioral interview by reviewing
-                            commonly asked questions and hearing advice from officers and Cracking the 
-                            Code book.
-                            <br><br>
-                            We will practice answering questions to improve and prepare for interviews.
-                        </p> 
-                    </div>
-                </div>      
-            </li>  
-            <li>
-                <div class="card">
-                    <img src="assets/img/event/GitHub-Beauttification.png" class="card__image" alt="" />
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                            <img class="card__thumb in-person" src="assets/img/icon-in-person.png" alt="" />
-                            <div class="card__header-text">
-                                <h3 class="card__title">GitHub Beauttification Workshop</h3>            
-                                <span class="card__status">December 5th</span>
-                            </div>
-                        </div>
-                        <p class="card__description">
-                            <span class="card__time"> 1:30PM - 2:30PM | HW603</span><br><br>
-                            A workshop dedicated to learning how to personally structure and design
-                            your GitHub profile.
-                            <br><br>
-                            You will learn how to create an interesting profile, design beautiful README 
-                            blurbs, and more!!!
-                        </p> 
-                    </div>
-                </div>      
-            </li>  
-            <li>
-                <div class="card">
-                    <img src="assets/img/event/Hackathon-Results.png" class="card__image" alt="" />
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                            <img class="card__thumb in-person" src="assets/img/icon-in-person.png" alt="" />
-                            <div class="card__header-text">
-                                <h3 class="card__title">Hackathon Results Celebration</h3>            
-                                <span class="card__status">December 7th</span>
-                            </div>
-                        </div>
-                        <p class="card__description">
-                            <span class="card__time"> 12PM - 1:30PM | TH205</span><br><br>
-                            End of Hackathon Celebration
-                            <br><br>
-                            Winners will be announced, food will be provided
-                        </p> 
-                    </div>
-                </div>      
-            </li>  
-            <a href="blog.html">
-                <li>
-                    <div class="card">
-                        <img src="assets/img/event/past-events.png" class="card__image" alt="" />
-                    </div>      
-                </li>  
-            </a>
-        </ul>
+        <div id="current-event" class="cards"></div>
 
         <div id="hackathon">
             <div class="size-change">
@@ -221,8 +123,9 @@
                 <li class="list-inline-item"><a href="sponsors.html">Corporate</a></li>
             </ul>
             
-            <p class="copyright">Hunter WiCS © 2021</p>
+            <p class="copyright">Hunter WiCS © 2022</p>
         </footer>
 
+        <script type="text/javascript" src="assets/scripts/events.js"></script>
     </body>
 </html>

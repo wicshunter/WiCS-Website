@@ -10,7 +10,7 @@
 }
 
 .leftBox , .events {
-    height: fit-content;
+    /* height: fit-content; */
     min-height: 625px;
 
     display: flex;
@@ -55,6 +55,27 @@
     padding-left: 0;
 }
 
+/* .alignment {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+} */
+
+.blog-card {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
 .events li {
     width: 100%;
 
@@ -69,7 +90,7 @@
     padding: 15px;
 }
 
-.time {
+.date {
     background-color: #fef8f8;
     width: 17%;
     height: 140px;
@@ -120,13 +141,22 @@
 }
 
 @media only screen and (max-width: 1300px)  {
-    .events {
-        width: 750px;
+    /* .events {
+        max-width: 900px;
         margin-bottom: 100px;
         height: fit-content;
+    } */
+    .events {
+        max-width: 100%;
+        /* height: auto; */
+        margin-bottom: 100px;
+        /* background-color: #8458fc80; */
+    
+        overflow-y: auto;
+        scroll-behavior: smooth;
     }
 
-    .time {
+    .date {
         max-width: 25%;
         padding: 15px;
         height: 165px;
@@ -136,4 +166,28 @@
         width: 75%;
         height: 165px;
     }
+}
+
+/* Drop Down */
+.form-container {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+form {
+    margin: 50px;
+    width: fit-content;
+}
+
+form label{
+    font-size: 30px;
+    color: #fef8f8;
+}
+
+select {
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 #C8B6FF;
+    color: #FFAFCC !important;
 }

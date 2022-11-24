@@ -1,0 +1,83 @@
+[
+    {
+        "year" : "2022-2023",
+        "events" : [
+            {
+                "title" : "Friendsgiving Brunch",
+                "date" : "Nov<br>23th",
+                "type" : "in-person",
+                "description" : "Members come to celebrate Thanksgiving together and have fun. Members can talk with each other and learn from officers."
+            },
+            {
+                "title" : "Schedule Planning",
+                "date" : "Nov<br>18th",
+                "type" : "virtual",
+                "description" : "Members come to hear officers advice, experience, and what we wished we knew about classes at Hunter. Officers shared resources used to know more about certain classes along with helpful tips."
+            },
+            {
+                "title" : "Networking and LinkedIn",
+                "date" : "Nov<br>16th",
+                "type" : "in-person",
+                "description" : "This workshop dedicated to teaching how to efficiently network and advice on how to maintain connection. A brief section was held to start their LinkedIn profile and improve certain sections."
+            },
+            {
+                "title" : "Break Through Tech Information Session",
+                "date" : "Nov<br>15th",
+                "type" : "virtual",
+                "description" : "Members learn about Break Through Tech organization and their AI Program. During this event, they learn more in depth details and ask questions concerning applications."
+            },
+            {
+                "title" : "USG Club Meet and Greet",
+                "date" : "Nov<br>14th",
+                "type" : "in-person",
+                "description" : "Members come to learn and interact about different clubs at Hunter. Members learn about their goals and mission while in a club-fair type event."
+            },
+            {
+                "title" : "Google Office Visit",
+                "date" : "Nov<br>11th",
+                "type" : "in-person",
+                "description" : "Members visit the Google Office in NYC to learn more about Google, learn how to build a techncial career, have an office tour, and hear from Hunter Alumni."
+            },
+            {
+                "title" : "Google Panel",
+                "date" : "Nov<br>10th",
+                "type" : "in-person",
+                "description" : "Members hear from Women and Non-Binary employees of Google, learn a day in the life of a SWE, and held a QnA session."
+            },
+            {
+                "title" : "Intro to Github",
+                "date" : "Nov<br>2nd",
+                "type" : "in-person",
+                "description" : "Members learn about GitHub and git in a hands-on workshop. During this workshop members created an SSH key, connected it to their GitHub account, then practiced some git commands."
+            },
+            {
+                "title" : "Halloween Social",
+                "date" : "Oct<br>31st",
+                "type" : "in-person",
+                "description" : "Members come to celebrate the Holiday together and have fun. A meetup for members to meet each other and meet the officers."
+            },
+            {
+                "title" : "Intro to HTML/CSS",
+                "date" : "Oct<br>25th",
+                "type" : "virtual",
+                "description" : "Members learned basic HTML tags and CSS styles while collaborating on a web page together in real-time and learning from website examples."
+            },
+            {
+                "title" : "Cybersecuirty Challenge",
+                "date" : "Oct<br>19th",
+                "type" : "virtual",
+                "description" : "Members learned about the Capture The Flag (CTF) Club at Hunter and how to be more involved by spekaing to the President. A brief walkthough to how to start a CTF challenge."
+            },
+            {
+                "title" : "Intro to HTML/CSS",
+                "date" : "Oct<br>12th",
+                "type" : "virtual",
+                "description" : "Members learned basic HTML tags and CSS styles while collaborating on a web page together in real-time and learning from website examples."
+            }
+        ]
+    },
+    {
+        "year" : "2021-2022",
+        "events" : []
+    }
+]
