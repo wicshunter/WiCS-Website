@@ -4,33 +4,33 @@ fetch('assets/data/events.json')
   .then(res => res.json()) // the .json() method parses the JSON response into a JS object literal
   .then(data => displayCards(data));
 
-// Example - Card
-// <div class="card">
-//     <img src="assets/img/event/Behavioral-Interview-Prep.png" class="card__image" alt="" />
-//     <div class="card__overlay">
-//         <div class="card__header">
-//             <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    //Did not add idk what do o-O                 
-//             <img class="card__thumb virtual" src="assets/img/icon-virtual.png" alt="" />
-//             <div class="card__header-text">
-//                 <h3 class="card__title">Behavioral Interview Prep</h3>            
-//                 <span class="card__date">November 29th</span>
-//             </div>
-//         </div>
-//         <p class="card__description">
-//             <span class="card__time"> 2PM - 3:30PM | Discord</span><br><br>
-//             Members will learn how to prepare for a behavioral interview by reviewing
-//             commonly asked questions and hearing advice from officers and Cracking the 
-//             Code book.
-//             <br><br>
-//             We will practice answering questions to improve and prepare for interviews.
-//         </p> 
-//     </div>
-// </div>  
-
+/******************************* Upcoming Event Card - Example
+<div class="card">
+    <img src="assets/img/event/Behavioral-Interview-Prep.png" class="card__image" alt="" />
+    <div class="card__overlay">
+        <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    //Did not add idk what do o-O                 
+            <img class="card__thumb virtual" src="assets/img/icon-virtual.png" alt="" />
+            <div class="card__header-text">
+                <h3 class="card__title">Behavioral Interview Prep</h3>            
+                <span class="card__date">November 29th</span>
+            </div>
+        </div>
+        <p class="card__description">
+            <span class="card__time"> 2PM - 3:30PM | Discord</span><br><br>
+            Members will learn how to prepare for a behavioral interview by reviewing
+            commonly asked questions and hearing advice from officers and Cracking the 
+            Code book.
+            <br><br>
+            We will practice answering questions to improve and prepare for interviews.
+        </p> 
+    </div>
+</div>  
+*******************************/
 function displayCards(json) {
+    console.log(json);
     json.forEach(event => {
-        console.log(event);
-
+        
         //Event Image
         var imgEvent = document.createElement('img');
         imgEvent.className = "card__image";
@@ -91,14 +91,15 @@ function displayCards(json) {
     cardBlog();
 }
 
-//Example - Blog Card
-// <a href="blog.html">
-//     <li>
-//         <div class="card">
-//             <img src="assets/img/event/past-events.png" class="card__image" alt="" />
-//         </div>      
-//     </li>  
-// </a>
+/******************************* Past Event (Blog) Card - Example
+<a href="blog.html">
+    <li>
+        <div class="card">
+            <img src="assets/img/event/past-events.png" class="card__image" alt="" />
+        </div>      
+    </li>  
+</a>
+*******************************/
 function cardBlog() {
     var blog = document.createElement('a');
     blog.href = "blog.html";

@@ -1,5 +1,4 @@
 var dropdown = document.getElementById('blog-dropdown');
-// var defaultYear = document.getElementById("selection").value;
 var blog = document.getElementById('blog');
 
 var jsonArr = []
@@ -21,27 +20,27 @@ function loadEvents() {
 
 function getEvents(year) {
     var selected = document.getElementById("selection").value;
-    console.log(selected);
     return year.year == String(selected);
 }
 
-//Example
-// <div class="blog-card">
-//     <div class="time">
-//         <h5>Nov.<br>2nd</h5>
-//     </div>
-//     <div class="details">
-//         <div class="event-title">
-//             <img class="in-person" src="assets/img/icon-in-person.png" alt="In Person Event">
-//             <h5>Intro to Github</h5>
-//         </div>
-//         <p>
-//             Members learn about GitHub and git in a hands-on workshop. During this workshop
-//             members created an SSH key, connected it to their GitHub account, then practiced
-//             some git commands. 
-//         </p>
-//     </div>
-// </div>
+/******************************* Blog Card - Example
+<div class="blog-card">
+    <div class="time">
+        <h5>Nov.<br>2nd</h5>
+    </div>
+    <div class="details">
+        <div class="event-title">
+            <img class="in-person" src="assets/img/icon-in-person.png" alt="In Person Event">
+            <h5>Intro to Github</h5>
+        </div>
+        <p>
+            Members learn about GitHub and git in a hands-on workshop. During this workshop
+            members created an SSH key, connected it to their GitHub account, then practiced
+            some git commands. 
+        </p>
+    </div>
+</div>
+*******************************/
 function displayCards(json) {
     console.log(json);
     if(jsonArr != [] || jsonArr != undefined) {
@@ -104,17 +103,18 @@ function displayCards(json) {
     })
 }
 
-
-//Example - Dropdown Select
-// <div id="blog-dropdown" class="form-container">
-//     <form>
-//         <label>Academic Year</label>
-//         <select id="selection" class="custom-select">
-//             <option selected value="2022-2023">2022-2023</option>
-//             <option value="2021-2022">2021-2022</option>
-//         </select>
-//     </form>
-// </div>
+/******************************* Dropdown Selection - Example
+Example - Dropdown Select
+<div id="blog-dropdown" class="form-container">
+    <form>
+        <label>Academic Year</label>
+        <select id="selection" class="custom-select">
+            <option selected value="2022-2023">2022-2023</option>
+            <option value="2021-2022">2021-2022</option>
+        </select>
+    </form>
+</div>
+*******************************/
 function dropdownForm(selected) {
     var dropdownDiv = document.createElement('div');
     dropdownDiv.className = "form-container";
@@ -128,7 +128,6 @@ function dropdownForm(selected) {
     select.className = "custom-select";
     select.id = "selection";
     select.name = "selection"
-    // select.onchange = "loadEvents()";
     select.addEventListener('change', loadEvents);
 
     var years = ['2022-2023', '2021-2022'];

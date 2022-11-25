@@ -94,15 +94,14 @@
 }
 
 #past {
-  margin: 30px;
+  background-color: #1b162980;
 }
 
 #past-align {
-  /* background-color: #6A515E; */
   max-width: 100%;
-  margin: auto;
-  margin-top: 65px;
-  margin-bottom: 65px;
+  padding: 30px;
+  padding-top: 65px;
+  padding-bottom: 65px;
   text-align: center;
 }
 
@@ -112,7 +111,8 @@
   align-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 50px;
+  width: 100%;
+  /* background-color: #6A515E; */
 }
 
 .past-card {
@@ -120,16 +120,21 @@
   align-items: center;
   padding: 15px;
   margin: 20px;
-  max-width: 330px;
+  width: 350px;
   text-align: start;
 
   background-color: #bfc9b3;
   border-radius: 15px;
   box-shadow: 
-    -5px -5px #fef8f8,
-    5px 5px #fef8f8,
-    -8px -6px #1b162980,
-    8px 6px #1b162980;
+    -5px -5px #1b162980,
+    5px 5px #1b162980,
+    -8px -6px #fef8f8,
+    8px 6px #fef8f8;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  align-content: space-between;
 }
 
 .past-card img {
@@ -137,6 +142,29 @@
   border-radius: 20%;
   margin: 10px;
   box-shadow: 2px 2px 5px #6A515E;
+}
+
+.past-info {
+  margin-left: 15px;
+  width: 190px;
+}
+
+.past-name {
+  color: #fef8f8;
+  text-shadow: 2px 2px #6A515E;
+  padding: 0%;
+}
+
+.year-served {
+  letter-spacing: 1.5px;
+}
+
+.past-icons {
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  align-content: space-evenly;
 }
 
 .past-icons > a {
@@ -153,4 +181,36 @@
   text-shadow: 1px 1px #fceee9;
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+}
+
+.past-title , .past-desc{
+  color: #fef8f8;
+}
+
+/* Drop Down */
+.form-container {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  margin: 50px;
+  width: fit-content;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+form label{
+  font-size: 25px;
+  color: #fef8f8;
+}
+
+select {
+  width: 150px !important;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 #C8B6FF;
+  color: #FFAFCC !important;
 }

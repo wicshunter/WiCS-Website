@@ -178,6 +178,9 @@
 form {
     margin: 50px;
     width: fit-content;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 form label{
@@ -186,7 +189,7 @@ form label{
 }
 
 select {
-    width: fit-content;
+    width: 150px !important;
     text-align: center;
     box-shadow: 0 2px 5px 0 #C8B6FF;
     color: #FFAFCC !important;

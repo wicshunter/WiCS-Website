@@ -1,0 +1,164 @@
+[   
+    {
+        "current" : [
+            {
+                "role" : "President",
+                "name" : "Kelly Camacho",
+                "description" : "Computer Science Major <br> Media Studies Focus Study",
+                "img" : "assets/img/officers/Kelly-Camacho.jpg",
+                "social" : {
+                    "google" : "mailto: ksophia.martinez@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/kelly-camacho/",
+                    "github" : "https://github.com/k-sophia"
+                },
+                "totalServed" : "2021-2023",
+                "served" : [
+                    "2022-2023",
+                    "2021-2022"
+                ]
+            },
+            {
+                "role" : "Vice President",
+                "name" : "Sherelyn Alejandro",
+                "description" : "Physics Major <br> Philosophy and Math Minor",
+                "img" : "assets/img/officers/Sherelyn-Alejandro.jpg",
+                "social" : {
+                    "google" : "mailto: sherelyna12@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/sherelyn-alejandro-1678ab203/",
+                    "github" : "https://github.com/SherelynA"
+                },
+                "totalServed" : "2021-2023",
+                "served" : [
+                    "2022-2023",
+                    "2021-2022"
+                ]
+            },
+            {
+                "role" : "Vice President",
+                "name" : "Lanique Peterson",
+                "description" : "Computer Science Major",
+                "img" : "assets/img/officers/Lanique-Peterson.jpg",
+                "social" : {
+                    "google" : "mailto: laniquepeterson@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/laniquepeterson/",
+                    "github" : "https://github.com/La-Nique"
+                },
+                "totalServed" : "2021-2023",
+                "served" : [
+                    "2022-2023",
+                    "2021-2022"
+                ]
+            },
+            {
+                "role" : "Secretary",
+                "name" : "Kevin Ulcena",
+                "description" : "Computer Science Major",
+                "img" : "assets/img/officers/Kevin-Ulcena.jpg",
+                "social" : {
+                    "google" : "mailto: Kevinulcena05@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/kevin-ulcena/",
+                    "github" : "https://github.com/Kevin635"
+                },
+                "totalServed" : "2021-2023",
+                "served" : [
+                    "2022-2023",
+                    "2021-2022"
+                ]
+            },
+            {
+                "role" : "Treasurer",
+                "name" : "Georgina Woo",
+                "description" : "Theatre Major <br> Computer Science Minor",
+                "img" : "assets/img/officers/Georgina-Woo.jpg",
+                "social" : {
+                    "google" : "mailto: georginawooxy@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/georginawooxy/",
+                    "github" : "https://github.com/lxwooxy"
+                },
+                "totalServed" : "2021-2023",
+                "served" : [
+                    "2022-2023",
+                    "2021-2022"
+                ]
+            },
+            {
+                "role" : "Social Media Manager",
+                "name" : "Madina Monowara",
+                "description" : "Computer Science Major",
+                "img" : "assets/img/officers/Madina-Monowara.jpg",
+                "social" : {
+                    "google" : "mailto: monowaram9@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/madinamonowara/"
+                },
+                "totalServed" : "2021-2023",
+                "served" : [
+                    "2022-2023",
+                    "2021-2022"
+                ]
+            },
+            {
+                "role" : "Social Media Manager",
+                "name" : "Carla Sanchez",
+                "description" : "Human Computer Interaction Major",
+                "img" : "assets/img/officers/Carla-Sanchez.jpg",
+                "social" : {
+                    "google" : "mailto: csanchezgina@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/carla-sanchez-cs/",
+                    "github" : "https://github.com/CGSanchez-tech"
+                },
+                "totalServed" : "2022-2023",
+                "served" : [
+                    "2022-2023"
+                ]
+            }
+        ],
+        "past" : [
+            {
+                "role" : "Secretary",
+                "name" : "Nafisa Tanta",
+                "description" : "Computer Science Major",
+                "img" : "assets/img/officers/Nafisa-Tanta.jpg",
+                "social" : {
+                    "google" : "mailto: nafisantanta@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/nafisatanta/",
+                    "github" : "https://github.com/NafisaTanta997"
+                },
+                "totalServed" : "2021-2023",
+                "served" : [
+                    "2022-2023",
+                    "2021-2022"
+                ]
+            },
+            {
+                "role" : "Program Chair",
+                "name" : "Joyce Zhang",
+                "description" : "Computer Science Major",
+                "img" : "assets/img/officers/Joyce-Zhang.png",
+                "social" : {
+                    "google" : "mailto: joycezhang2065@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/joyce-zhang-/",
+                    "github" : "https://github.com/JZBlank"
+                },
+                "totalServed" : "2021-2023",
+                "served" : [
+                    "2022-2023",
+                    "2021-2022"
+                ]
+            },
+            {
+                "role" : "Program Chair",
+                "name" : "Sadia Chowdhury",
+                "description" : "",
+                "img" : "assets/img/officers/Sadia-Chowdhury.jpg",
+                "social" : {
+                    "google" : "mailto: sadiachowdhury2000@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/sadiachowdhury2409/"
+                },
+                "totalServed" : "2021-2022",
+                "served" : [
+                    "2021-2022"
+                ]
+            }
+        ]
+    }
+]
