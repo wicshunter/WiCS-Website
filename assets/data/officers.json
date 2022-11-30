@@ -35,11 +35,11 @@
             },
             {
                 "role" : "Vice President",
-                "name" : "Lanique Peterson",
-                "description" : "Computer Science Major",
+                "name" : "Lanique Lynn Peterson",
+                "description" : "Computer Science Major <br> Math Minor",
                 "img" : "assets/img/officers/Lanique-Peterson.jpg",
                 "social" : {
-                    "google" : "mailto: laniquepeterson@gmail.com",
+                    "google" : "mailto: lanique.peterson02@myhunter.cuny.edu",
                     "linkedin" : "https://www.linkedin.com/in/laniquepeterson/",
                     "github" : "https://github.com/La-Nique"
                 },
