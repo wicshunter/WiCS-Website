@@ -1,21 +1,5 @@
 [
     {
-        "title" : "Behavioral Interview Prep",
-        "date" : "November 29th",
-        "time" : "2PM - 3:30PM | Discord",
-        "img" : "assets/img/event/Behavioral-Interview-Prep.png",
-        "type" : "virtual",
-        "description" : "Members will learn how to prepare for a behavioral interview by reviewing commonly asked questions and hearing advice from officers and Cracking the Code book. <br><br> We will practice answering questions to improve and prepare for interviews."
-    },
-    {
-        "title" : "GitHub Beauttification Workshop",
-        "date" : "December 5th",
-        "time" : "1:30PM - 2:30PM | HW603",
-        "img" : "assets/img/event/GitHub-Beauttification.png",
-        "type" : "in-person",
-        "description" : "A workshop dedicated to learning how to personally structure and design your GitHub profile. <br><br> You will learn how to create an interesting profile, design beautiful README blurbs, and more!!!"
-    },
-    {
         "title" : "Hackathon Results Celebration",
         "date" : "December 7th",
         "time" : "12PM - 1:30PM | TH205",

@@ -3,6 +3,24 @@
         "year" : "2022-2023",
         "events" : [
             {
+                "title" : "Hackathon Results Celebration",
+                "date" : "Dec<br>7th",
+                "type" : "in-person",
+                "description" : "Members come to celebrate the end of our Hackathon and hear the results."
+            },
+            {
+                "title" : "GitHub Beauttification Workshop",
+                "date" : "Dec<br>5th",
+                "type" : "in-person",
+                "description" : "Members learn how to personally structure and design their GitHub profile."
+            },
+            {
+                "title" : "Behavioral Interview Prep",
+                "date" : "Nov<br>29th",
+                "type" : "virtual",
+                "description" : "Members practice for Behavorial Interviews and review commonly asked questions."
+            },
+            {
                 "title" : "Friendsgiving Brunch",
                 "date" : "Nov<br>23th",
                 "type" : "in-person",

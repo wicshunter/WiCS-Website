@@ -3,13 +3,12 @@
         "current" : [
             {
                 "role" : "President",
-                "name" : "Kelly Camacho",
-                "description" : "Computer Science Major <br> Media Studies Focus Study",
-                "img" : "assets/img/officers/Kelly-Camacho.jpg",
+                "name" : "Madina Monowara",
+                "description" : "Computer Science Major",
+                "img" : "assets/img/officers/Madina-Monowara.jpg",
                 "social" : {
-                    "google" : "mailto: ksophia.martinez@gmail.com",
-                    "linkedin" : "https://www.linkedin.com/in/kelly-camacho/",
-                    "github" : "https://github.com/k-sophia"
+                    "google" : "mailto: monowaram9@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/madinamonowara/"
                 },
                 "totalServed" : "2021-2023",
                 "served" : [
@@ -83,21 +82,6 @@
             },
             {
                 "role" : "Social Media Manager",
-                "name" : "Madina Monowara",
-                "description" : "Computer Science Major",
-                "img" : "assets/img/officers/Madina-Monowara.jpg",
-                "social" : {
-                    "google" : "mailto: monowaram9@gmail.com",
-                    "linkedin" : "https://www.linkedin.com/in/madinamonowara/"
-                },
-                "totalServed" : "2021-2023",
-                "served" : [
-                    "2022-2023",
-                    "2021-2022"
-                ]
-            },
-            {
-                "role" : "Social Media Manager",
                 "name" : "Carla Sanchez",
                 "description" : "Human Computer Interaction Major",
                 "img" : "assets/img/officers/Carla-Sanchez.jpg",
@@ -113,6 +97,22 @@
             }
         ],
         "past" : [
+            {
+                "role" : "President",
+                "name" : "Kelly Camacho",
+                "description" : "Computer Science Major <br> Media Studies Focus Study",
+                "img" : "assets/img/officers/Kelly-Camacho.jpg",
+                "social" : {
+                    "google" : "mailto: ksophia.martinez@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/kelly-camacho/",
+                    "github" : "https://github.com/k-sophia"
+                },
+                "totalServed" : "2021-2023",
+                "served" : [
+                    "2022-2023",
+                    "2021-2022"
+                ]
+            },
             {
                 "role" : "Secretary",
                 "name" : "Nafisa Tanta",
