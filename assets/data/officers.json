@@ -4,6 +4,7 @@
             {
                 "role" : "President",
                 "name" : "Madina Monowara",
+                "board" : "Executive Board Member",
                 "description" : "Computer Science Major",
                 "img" : "assets/img/officers/Madina-Monowara.jpg",
                 "social" : {
@@ -34,6 +35,7 @@
             },
             {
                 "role" : "Vice President",
+                "board" : "Executive Board Member",
                 "name" : "Lanique Lynn Peterson",
                 "description" : "Computer Science Major <br> Math Minor",
                 "img" : "assets/img/officers/Lanique-Peterson.jpg",
@@ -50,6 +52,7 @@
             },
             {
                 "role" : "Secretary",
+                "board" : "Executive Board Member",
                 "name" : "Kevin Ulcena",
                 "description" : "Computer Science Major",
                 "img" : "assets/img/officers/Kevin-Ulcena.jpg",
@@ -66,6 +69,7 @@
             },
             {
                 "role" : "Treasurer",
+                "board" : "Executive Board Member",
                 "name" : "Georgina Woo",
                 "description" : "Theatre Major <br> Computer Science Minor",
                 "img" : "assets/img/officers/Georgina-Woo.jpg",
@@ -99,6 +103,7 @@
         "past" : [
             {
                 "role" : "President",
+                "board" : "Executive Board Member",
                 "name" : "Kelly Camacho",
                 "description" : "Computer Science Major <br> Media Studies Focus Study",
                 "img" : "assets/img/officers/Kelly-Camacho.jpg",

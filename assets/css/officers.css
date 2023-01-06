@@ -72,6 +72,11 @@
   text-shadow: 2px 2px #6A515E;
 }
 
+.board {
+  color: #f94aad;
+  text-shadow: 2px 2px #6A515E;
+}
+
 .card-info {
   margin-left: 10px;
   margin-right: 10px;
