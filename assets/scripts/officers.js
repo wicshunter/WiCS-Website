@@ -49,8 +49,8 @@ function displayCurrent(json) {
         role.innerHTML = officer.role;
 
         var board = document.createElement('h9');
-        name.className = "board";
-        name.innerHTML = officer.board;
+        board.className = "board";
+        board.innerHTML = officer.board;
 
         var description = document.createElement('p');
         description.innerHTML = officer.description;
