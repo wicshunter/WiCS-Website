@@ -48,6 +48,9 @@ function displayCurrent(json) {
         var role = document.createElement('h4');
         role.innerHTML = officer.role;
 
+        var board = document.createElement('h9');
+        name.innerHTML = officer.board;
+
         var description = document.createElement('p');
         description.innerHTML = officer.description;
 
@@ -70,6 +73,7 @@ function displayCurrent(json) {
         var cardInfo = document.createElement('div');
         cardInfo.className = "card-info";
         cardInfo.append(name);
+        cardInfo.append(board);
         cardInfo.append(role);
         cardInfo.append(description);
         cardInfo.append(icons);
@@ -164,7 +168,7 @@ function displayPrevious(json) {
 
         //Officer Information
         var h5 = document.createElement('h5');
-        h5.innerHTML = officer.name + '<br>' + officer.role;
+        h5.innerHTML = officer.name + '<br>' + officer.board + officer.role;
         var h6 = document.createElement('h6');
         h6.className = "year-served";
         h6.innerHTML = officer.totalServed;
