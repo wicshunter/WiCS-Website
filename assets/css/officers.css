@@ -34,7 +34,7 @@
 
 .officer-card {
   background-color: #cee1b9;
-  height: 425px;
+  height: 435px;
   width: 300px;
   margin: 65px;
   text-align: center;
@@ -73,8 +73,7 @@
 }
 
 .board {
-  color: #f94aad;
-  text-shadow: 2px 2px #6A515E;
+  color: #FFAFCC;
 }
 
 .card-info {
