@@ -49,6 +49,7 @@ function displayCurrent(json) {
         role.innerHTML = officer.role;
 
         var board = document.createElement('h9');
+        name.className = "board";
         name.innerHTML = officer.board;
 
         var description = document.createElement('p');
@@ -168,7 +169,7 @@ function displayPrevious(json) {
 
         //Officer Information
         var h5 = document.createElement('h5');
-        h5.innerHTML = officer.name + '<br>' + officer.board + officer.role;
+        h5.innerHTML = officer.name + '<br>' + officer.board + '<br>' + officer.role;
         var h6 = document.createElement('h6');
         h6.className = "year-served";
         h6.innerHTML = officer.totalServed;

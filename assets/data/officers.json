@@ -20,6 +20,7 @@
             {
                 "role" : "Vice President",
                 "name" : "Sherelyn Alejandro",
+                "board" : "",
                 "description" : "Physics Major <br> Philosophy and Math Minor",
                 "img" : "assets/img/officers/Sherelyn-Alejandro.jpg",
                 "social" : {
@@ -87,6 +88,7 @@
             {
                 "role" : "Social Media Manager",
                 "name" : "Carla Sanchez",
+                "board" : "",
                 "description" : "Human Computer Interaction Major",
                 "img" : "assets/img/officers/Carla-Sanchez.jpg",
                 "social" : {
@@ -121,6 +123,7 @@
             {
                 "role" : "Secretary",
                 "name" : "Nafisa Tanta",
+                "board" : "",
                 "description" : "Computer Science Major",
                 "img" : "assets/img/officers/Nafisa-Tanta.jpg",
                 "social" : {
@@ -138,6 +141,7 @@
                 "role" : "Program Chair",
                 "name" : "Joyce Zhang",
                 "description" : "Computer Science Major",
+                "board" : "",
                 "img" : "assets/img/officers/Joyce-Zhang.png",
                 "social" : {
                     "google" : "mailto: joycezhang2065@gmail.com",
@@ -153,6 +157,7 @@
             {
                 "role" : "Program Chair",
                 "name" : "Sadia Chowdhury",
+                "board" : "",
                 "description" : "",
                 "img" : "assets/img/officers/Sadia-Chowdhury.jpg",
                 "social" : {
