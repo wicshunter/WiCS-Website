@@ -19,23 +19,6 @@
             },
             {
                 "role" : "Vice President",
-                "name" : "Sherelyn Alejandro",
-                "board" : "",
-                "description" : "Physics Major <br> Philosophy and Math Minor",
-                "img" : "assets/img/officers/Sherelyn-Alejandro.jpg",
-                "social" : {
-                    "google" : "mailto: sherelyna12@gmail.com",
-                    "linkedin" : "https://www.linkedin.com/in/sherelyn-alejandro-1678ab203/",
-                    "github" : "https://github.com/SherelynA"
-                },
-                "totalServed" : "2021-2023",
-                "served" : [
-                    "2022-2023",
-                    "2021-2022"
-                ]
-            },
-            {
-                "role" : "Vice President",
                 "board" : "Executive Board Member",
                 "name" : "Lanique Lynn Peterson",
                 "description" : "Computer Science Major <br> Math Minor",
@@ -61,23 +44,6 @@
                     "google" : "mailto: Kevinulcena05@gmail.com",
                     "linkedin" : "https://www.linkedin.com/in/kevin-ulcena/",
                     "github" : "https://github.com/Kevin635"
-                },
-                "totalServed" : "2021-2023",
-                "served" : [
-                    "2022-2023",
-                    "2021-2022"
-                ]
-            },
-            {
-                "role" : "Treasurer",
-                "board" : "Executive Board Member",
-                "name" : "Georgina Woo",
-                "description" : "Theatre Major <br> Computer Science Minor",
-                "img" : "assets/img/officers/Georgina-Woo.jpg",
-                "social" : {
-                    "google" : "mailto: georginawooxy@gmail.com",
-                    "linkedin" : "https://www.linkedin.com/in/georginawooxy/",
-                    "github" : "https://github.com/lxwooxy"
                 },
                 "totalServed" : "2021-2023",
                 "served" : [
@@ -121,6 +87,38 @@
                 ]
             },
             {
+                "role" : "Treasurer",
+                "board" : "Executive Board Member",
+                "name" : "Georgina Woo",
+                "description" : "Theatre Major <br> Computer Science Minor",
+                "img" : "assets/img/officers/Georgina-Woo.jpg",
+                "social" : {
+                    "google" : "mailto: georginawooxy@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/georginawooxy/",
+                    "github" : "https://github.com/lxwooxy"
+                },
+                "totalServed" : "2021-2022",
+                "served" : [
+                    "2021-2022"
+                ]
+            },
+            {
+                "role" : "Vice President",
+                "name" : "Sherelyn Alejandro",
+                "board" : "",
+                "description" : "Physics Major <br> Philosophy and Math Minor",
+                "img" : "assets/img/officers/Sherelyn-Alejandro.jpg",
+                "social" : {
+                    "google" : "mailto: sherelyna12@gmail.com",
+                    "linkedin" : "https://www.linkedin.com/in/sherelyn-alejandro-1678ab203/",
+                    "github" : "https://github.com/SherelynA"
+                },
+                "totalServed" : "2021-2022",
+                "served" : [
+                    "2021-2022"
+                ]
+            },
+            {
                 "role" : "Secretary",
                 "name" : "Nafisa Tanta",
                 "board" : "",
@@ -131,9 +129,8 @@
                     "linkedin" : "https://www.linkedin.com/in/nafisatanta/",
                     "github" : "https://github.com/NafisaTanta997"
                 },
-                "totalServed" : "2021-2023",
+                "totalServed" : "2021-2022",
                 "served" : [
-                    "2022-2023",
                     "2021-2022"
                 ]
             },
@@ -148,9 +145,8 @@
                     "linkedin" : "https://www.linkedin.com/in/joyce-zhang-/",
                     "github" : "https://github.com/JZBlank"
                 },
-                "totalServed" : "2021-2023",
+                "totalServed" : "2021-2022",
                 "served" : [
-                    "2022-2023",
                     "2021-2022"
                 ]
             },
@@ -164,9 +160,9 @@
                     "google" : "mailto: sadiachowdhury2000@gmail.com",
                     "linkedin" : "https://www.linkedin.com/in/sadiachowdhury2409/"
                 },
-                "totalServed" : "2021-2022",
+                "totalServed" : "2021-2021",
                 "served" : [
-                    "2021-2022"
+                    "2021-20212"
                 ]
             }
         ]
